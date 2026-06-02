@@ -132,9 +132,11 @@ Cada micro-etapa contém 5-10 arquivos relacionados.
 - **Tradução Conceptual**: Não é tradução literal, mas explicação da lógica em português claro
 - **Lógica Explícita**: Cada decisão, fluxo e interação deve ser documentada
 - **Preservação de Estrutura**: Manter a mesma estrutura de diretórios do original
-- **Arquivos .MD**: Todos os arquivos traduzidos serão em formato Markdown (.md)
+- **Arquivos .MD**: Todos os arquivos traduzidos serão em formato Markdown (.md) Ps: Acrescentando o formato markdown no final do nome original do arquivo!
 
 ---
 
+* Lembrando que os Arquivos prontos não irão conter o conteúdo com único texto "Em Breve" e e vão ter a extensão em markdown.
+
 *Última atualização: Junho 2024*
-*Versão do Plano: 1.0*
+*Versão do Plano: 1.1*
