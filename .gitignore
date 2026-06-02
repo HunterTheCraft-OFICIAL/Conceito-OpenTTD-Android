@@ -1,74 +1,62 @@
 ```
-# Build artifacts and compiled files
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
-*.pyc
-__pycache__/
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.julia/
-zig*/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-
-# CMake build artifacts
+# Build artifacts and directories
 build/
+cmake-build-*/
 CMakeFiles/
 CMakeCache.txt
-cmake_install_manifest.txt
 Makefile
+ninja_*
+compile_commands.json
 
-# OS-specific files
+# Dependencies (though CMake typically handles these in build dir)
+.externalNativeBuild/
+
+# Logs
+*.log
+
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Logs and temporary files
-*.log
-*.tmp
+# CI/CD related (from .github)
+!.github/
+.github/workflows/**
+!.github/ISSUE_TEMPLATE/**
+
+# Regression test results
+regression/*/result.txt
+regression/*/test.sav
+
+# Potentially generated binaries (platform-specific)
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# IDE files (example, adjust if specific IDEs are used)
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Editor/IDE files
-.vscode/
-.idea/
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
+# Distribution packages
 *.deb
-*.Z
-*.lz
-*.lzo
+*.rpm
+*.pkg.tar.xz
+*.zip
 *.tar.gz
-*.tar.bz2
 *.tar.xz
-*.tar.zst
+
+# Debug and profiling data
+*.profdata
+*.gcda
+*.gcno
+*.dblite
+
+# Configuration and state files that might be generated
+config.h
+src/rev.h
 
 ```
