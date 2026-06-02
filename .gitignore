@@ -1,36 +1,4 @@
 ```
-# Documentation files that might be generated
-*.h.md
-
-# Build artifacts (if any get generated from headers)
-build/
-dist/
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Temp files
-*.tmp
-*.swp
+# Project-specific ignores
+_CHECKLIST_GERAL.md
 ```
