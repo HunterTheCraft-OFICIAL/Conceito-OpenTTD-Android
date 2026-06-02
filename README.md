@@ -46,4 +46,6 @@ O projeto foi dividido em **5 NÍVEIS** para gerenciamento eficiente do escopo:
 
 ---
 
+Veja a lista de status sobre a situação atual
+
 *Última atualização: Junho 2024*
