@@ -6,6 +6,25 @@
 | [✓] Etapa 02 - Recriar a estrutura do Clone baixado no Endereço correspondente |
 | [🔄] Etapa 03 - Traduzir a Linguagem de Programação e Lógica para Língua Portuguesa do Brasil em formato de conceito e com a Lógica explícita de arquivo por arquivo |
 
+## 📁 Estrutura do Projeto
+
+### Diretório `Status-de-Progresso/`
+
+Este diretório contém **todos os arquivos vitais** para o gerenciamento e acompanhamento do projeto:
+
+- **`_CHECKLIST_GERAL.md`** - Lista completa de todos os arquivos do projeto com status de tradução (✓ ou ×)
+- **`Status.md`** - Visão geral do progresso atual e métricas do projeto
+- **`Plano de Níveis.md`** - Detalhamento dos 5 níveis de prioridade e estratégia de tradução
+- **`Etapa 03.md`** - Documentação específica sobre o andamento da etapa atual de tradução
+- **`OBJETIVO_PROJETO.md`** - Descrição detalhada dos objetivos e metas do projeto
+- **`REGRAS_TRADUCAO.md`** - Padrões e convenções adotadas para as traduções conceituais
+- **`GLOSSARIO.md`** - Termos técnicos e suas traduções padronizadas
+- **`MAPA_DEPENDENCIAS.md`** - Mapeamento das dependências entre arquivos e módulos
+
+> 💡 **Dica:** Consulte o `_CHECKLIST_GERAL.md` para verificar o status exato de qualquer arquivo do projeto.
+
+---
+
 ## Progresso da Etapa 03
 
 ### Estrutura de Níveis
