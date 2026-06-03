@@ -38,26 +38,52 @@ Este enum define os tipos básicos de veículos no jogo. É utilizado em:
 
 **IMPORTANTE:** A estrutura do diretório `Conceito-OpenTTD/` deve espelhar **exatamente** a estrutura do repositório original do OpenTTD.
 
-- Cada arquivo mantém o **nome original exato**, apenas adicionando a extensão `.md` no final
-- Não há tradução ou alteração nos nomes dos arquivos
-- A organização em pastas/subpastas é idêntica à original
+#### Regra de Nomenclatura de Arquivos
 
-**Exemplo de Estrutura:**
+Cada arquivo segue um ciclo de vida em duas fases:
+
+**FASE 1 - Antes da Tradução (Arquivo Placeholder):**
+- Nome: **Exatamente igual ao original**, SEM extensão `.md`
+- Conteúdo: Apenas o texto `"Em Breve"`
+- Propósito: Reservar o nome na estrutura e indicar que ainda não foi traduzido
+
+**FASE 2 - Após a Tradução (Arquivo Completo):**
+- Nome: **Nome original + extensão `.md`** no final
+- Conteúdo: Tradução conceitual completa
+- Propósito: Documento final com a explicação detalhada
+
+#### Exemplo Prático
+
+| Arquivo Original | Antes da Tradução | Após a Tradução |
+|-----------------|-------------------|-----------------|
+| `src/aircraft.h` | `src/aircraft.h` (contém: "Em Breve") | `src/aircraft.h.md` (tradução completa) |
+| `src/engine.cpp` | `src/engine.cpp` (contém: "Em Breve") | `src/engine.cpp.md` (tradução completa) |
+| `docs/multiplayer.md` | `docs/multiplayer.md` (contém: "Em Breve") | `docs/multiplayer.md.md` (tradução completa) |
+| `README.md` | `README.md` (contém: "Em Breve") | `README.md.md` (tradução completa) |
+
+#### Fluxo de Trabalho
+
+1. **Criar arquivo placeholder**: Ao mapear um novo arquivo, crie-o com o nome original exato e conteúdo "Em Breve"
+2. **Traduzir o arquivo**: Quando for trabalhar neste arquivo, substitua o conteúdo pela tradução conceitual
+3. **Renomear para .md**: Após completar a tradução, renomeie o arquivo adicionando `.md` ao final do nome
+
+**Exemplo de Estrutura Mista:**
 ```
-OpenTTD Original:          Conceito-OpenTTD:
-src/aircraft.h      →      src/aircraft.h.md
-src/engine.cpp      →      src/engine.cpp.md
-docs/multiplayer.md →      docs/multiplayer.md.md
-README.md           →      README.md.md
+Conceito-OpenTTD/src/
+├── aircraft.h          ← Ainda não traduzido (placeholder)
+├── aircraft.h.md       ← Já traduzido (completo)
+├── engine.cpp          ← Ainda não traduzido (placeholder)
+├── vehicle.h           ← Ainda não traduzido (placeholder)
+└── vehicle.h.md        ← Já traduzido (completo)
 ```
 
 ### Conteúdo dos Arquivos
 
-#### Antes da Tradução
+#### Antes da Tradução (Fase 1)
 
 Todo arquivo recém-criado (ainda não traduzido) deve conter **apenas** o texto:
 
-```markdown
+```
 Em Breve
 ```
 
@@ -66,29 +92,9 @@ Isso indica que:
 - Ainda não possui tradução conceitual
 - Está aguardando ser trabalhado
 
-#### Após a Tradução
+#### Após a Tradução (Fase 2)
 
-O arquivo mantém o **mesmo nome** (com `.md`), mas o conteúdo é substituído pela tradução conceitual completa.
-
-**Exemplo:**
-
-**Arquivo:** `src/vehicle_type.h.md`
-
-**Antes:**
-```markdown
-Em Breve
-```
-
-**Depois:**
-```markdown
-# vehicle_type.h
-
-## Propósito
-
-Este arquivo define os tipos básicos de veículos utilizados no OpenTTD...
-
-[conteúdo completo da tradução conceitual]
-```
+O arquivo é **renomeado** adicionando `.md` ao final, e o conteúdo é substituído pela tradução conceitual completa.
 
 ## 🔤 Diretrizes de Tradução
 
