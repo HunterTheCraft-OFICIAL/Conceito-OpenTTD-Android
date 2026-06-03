@@ -34,32 +34,60 @@ Este enum define os tipos básicos de veículos no jogo. É utilizado em:
 
 ## 📋 Formato Padrão dos Arquivos
 
-### Estrutura Recomendada
+### Estrutura de Diretórios
+
+**IMPORTANTE:** A estrutura do diretório `Conceito-OpenTTD/` deve espelhar **exatamente** a estrutura do repositório original do OpenTTD.
+
+- Cada arquivo mantém o **nome original exato**, apenas adicionando a extensão `.md` no final
+- Não há tradução ou alteração nos nomes dos arquivos
+- A organização em pastas/subpastas é idêntica à original
+
+**Exemplo de Estrutura:**
+```
+OpenTTD Original:          Conceito-OpenTTD:
+src/aircraft.h      →      src/aircraft.h.md
+src/engine.cpp      →      src/engine.cpp.md
+docs/multiplayer.md →      docs/multiplayer.md.md
+README.md           →      README.md.md
+```
+
+### Conteúdo dos Arquivos
+
+#### Antes da Tradução
+
+Todo arquivo recém-criado (ainda não traduzido) deve conter **apenas** o texto:
 
 ```markdown
-# Nome do Arquivo (nome_do_arquivo.ext)
+Em Breve
+```
+
+Isso indica que:
+- O arquivo foi mapeado na estrutura
+- Ainda não possui tradução conceitual
+- Está aguardando ser trabalhado
+
+#### Após a Tradução
+
+O arquivo mantém o **mesmo nome** (com `.md`), mas o conteúdo é substituído pela tradução conceitual completa.
+
+**Exemplo:**
+
+**Arquivo:** `src/vehicle_type.h.md`
+
+**Antes:**
+```markdown
+Em Breve
+```
+
+**Depois:**
+```markdown
+# vehicle_type.h
 
 ## Propósito
 
-[Descrição clara do propósito deste arquivo em 2-3 frases]
+Este arquivo define os tipos básicos de veículos utilizados no OpenTTD...
 
-## Principais Componentes
-
-### Classe/Função 1
-- **O que faz:** [descrição]
-- **Quando é usado:** [contexto]
-- **Relacionamentos:** [dependências]
-
-### Classe/Função 2
-...
-
-## Padrões de Design Utilizados
-
-[Quais padrões de programação são aplicados aqui]
-
-## Notas de Tradução
-
-[Termos técnicos que foram mantidos em inglês e por quê]
+[conteúdo completo da tradução conceitual]
 ```
 
 ## 🔤 Diretrizes de Tradução
