@@ -8,20 +8,23 @@
 
 ## 📁 Estrutura do Projeto
 
-### Diretório `Status-de-Progresso/`
+### Diretório `Documentacao/`
 
-Este diretório contém **todos os arquivos vitais** para o gerenciamento e acompanhamento do projeto:
+Este diretório contém **toda a documentação organizada** do projeto de tradução conceitual:
 
-- **`_CHECKLIST_GERAL.md`** - Lista completa de todos os arquivos do projeto com status de tradução (✓ ou ×)
-- **`Status.md`** - Visão geral do progresso atual e métricas do projeto
-- **`Plano de Níveis.md`** - Detalhamento dos 5 níveis de prioridade e estratégia de tradução
-- **`Etapa 03.md`** - Documentação específica sobre o andamento da etapa atual de tradução
-- **`OBJETIVO_PROJETO.md`** - Descrição detalhada dos objetivos e metas do projeto
-- **`REGRAS_TRADUCAO.md`** - Padrões e convenções adotadas para as traduções conceituais
-- **`GLOSSARIO.md`** - Termos técnicos e suas traduções padronizadas
-- **`MAPA_DEPENDENCIAS.md`** - Mapeamento das dependências entre arquivos e módulos
+- **[README.md](Documentacao/README.md)** - Índice central com links para todos os documentos
+- **[01-VISÃO-GERAL.md](Documentacao/01-VISÃO-GERAL.md)** - Visão completa do projeto, estrutura e objetivos
+- **[02-PROGRESSO.md](Documentacao/02-PROGRESSO.md)** - Status atual do progresso da tradução
+- **[03-CHECKLIST-GERAL.md](Documentacao/03-CHECKLIST-GERAL.md)** - Lista completa de todos os arquivos (972 total)
+- **[04-PLANO-NIVEIS.md](Documentacao/04-PLANO-NIVEIS.md)** - Estratégia de 5 níveis de prioridade
+- **[05-ETAPA-03.md](Documentacao/05-ETAPA-03.md)** - Detalhes da Etapa 03 atual
+- **[06-REGRAS-TRADUCAO.md](Documentacao/06-REGRAS-TRADUCAO.md)** - Padrões de formatação e tradução conceitual
+- **[07-GLOSSARIO.md](Documentacao/07-GLOSSARIO.md)** - Glossário de termos técnicos Inglês ↔ Português
+- **[08-MAPA-DEPENDENCIAS.md](Documentacao/08-MAPA-DEPENDENCIAS.md)** - Ordem lógica de leitura e dependências
+- **[09-HISTORICO-ETAPAS.md](Documentacao/09-HISTORICO-ETAPAS.md)** - Histórico detalhado das etapas concluídas
+- **[10-CHECKLIST-NIVEL-*.md](Documentacao/)** - Checklists divididas por nível de prioridade (5 arquivos)
 
-> 💡 **Dica:** Consulte o `_CHECKLIST_GERAL.md` para verificar o status exato de qualquer arquivo do projeto.
+> 💡 **Dica:** Comece pelo [01-VISÃO-GERAL.md](Documentacao/01-VISÃO-GERAL.md) para entender o projeto e consulte o [07-GLOSSARIO.md](Documentacao/07-GLOSSARIO.md) durante as traduções.
 
 ---
 
@@ -61,7 +64,9 @@ O projeto foi dividido em **5 NÍVEIS** para gerenciamento eficiente do escopo:
 8. `cargo_type.h` - Tipos de carga
 
 ### Documentação de Apoio
-- 📄 [`PLANO_NIVEIS.md`](Conceito-OpenTTD/PLANO_NIVEIS.md) - Plano mestre detalhado com estratégias, formatos e micro-etapas
+- 📄 [`04-PLANO-NIVEIS.md`](Documentacao/04-PLANO-NIVEIS.md) - Plano mestre detalhado com estratégias, formatos e micro-etapas
+- 📄 [`06-REGRAS-TRADUCAO.md`](Documentacao/06-REGRAS-TRADUCAO.md) - Padrões de tradução conceitual
+- 📄 [`07-GLOSSARIO.md`](Documentacao/07-GLOSSARIO.md) - Glossário de termos técnicos
 
 ---
 
