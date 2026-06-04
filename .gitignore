@@ -1,1 +1,108 @@
-(empty)
+```
+# Build artifacts and generated files
+*.grf
+*.nfo
+*.png
+*.bmp
+*.svg
+*.ico
+*.icns
+*.xpm
+*.dat
+*.obg
+*.obm
+*.obs
+
+# Documentation and media assets
+docs/
+media/
+os/
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.manifest
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Logs
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Package management
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Compiled extensions
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Compressed archives
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+```
